@@ -17,8 +17,8 @@ ArmorstandAnimator（現在開発中）で使われるMinecraft用の回転行�
 
 ArmorstandAnimatorで勝手に使用しますが，手動で使う場合は以下の手順で大丈夫だと思います．scoreboardのobjectはすべて AsaMatrix です．
 
-1. 親オブジェクトのWorldPosをそれぞれ #asa_parent_pos_x, #asa_parent_pos_y, #asa_parent_pos_z に代入します．
+1. execute as 親オブジェクト にて function #asa_matrix:get_parent_pos を実行します．
 2. 子オブジェクトのLocalPos（親オブジェクトからの相対的位置）をそれぞれ #asa_child_pos_x, #asa_child_pos_y, #asa_child_pos_z に代入します．
 3. execute as 親オブジェクト にて function #asa_matrix:matrix を実行します．
 4. function #asa_matrix:rotate を実行します．
-5. 子オブジェクトのPosに，#asa_child_pos_x, #asa_child_pos_y, #asa_child_pos_z を代入します．
+5. execute as 子オブジェクト にて function #asa_matrix:set_child_pos を実行します．

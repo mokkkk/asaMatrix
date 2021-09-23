@@ -1,5 +1,5 @@
 execute unless data entity @s Pose.Head run data merge entity @s {Pose:{Head:[1f,0f,0f]}}
-data merge storage asa_matrix: {Pose:[],Result:[0f,0f,0f], Rotate:[]}
+data merge storage asa_matrix: {Pose:[], Rotate:[],Result:[0f,0f,0f]}
 data modify storage asa_matrix: Pose append from entity @s Pose.Head[]
 data modify storage asa_matrix: Rotate append from entity @s ArmorItems[3].tag.Rotate[]
 

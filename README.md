@@ -1,6 +1,13 @@
 # AsaMatrix
 ArmorstandAnimator用の回転行列計算ライブラリ になる予定
 
+## 注意事項
+
+storageを使用した処理に変更したため，armorstand_animator v0.8.x で作成したデータパックには対応していません．
+v0.8.x用のライブラリはReleasesに置かれているので，そちらを使用してください．
+
+v0.9.x用のライブラリは，右上のCloneからダウンロードするようお願いします．
+
 ## 機能
 
 赤石愛様の AiMath（

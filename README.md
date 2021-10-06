@@ -1,5 +1,5 @@
 # AsaMatrix
-ArmorstandAnimator用の回転行列計算ライブラリ になる予定
+ArmorstandAnimator用の回転行列計算ライブラリ
 
 ## 注意事項
 
@@ -14,7 +14,7 @@ v0.9.x用のライブラリは，右上のCloneからダウンロードするよ
 https://github.com/Ai-Akaishi/AiMath
 ）が必要です．
 
-ArmorstandAnimator（現在開発中）で使われるMinecraft用の回転行列計算ライブラリです．
+ArmorstandAnimatorで使われるMinecraft用の回転行列計算ライブラリです．
 
 #asa_matrix:matrix ... 防具立てのPose.Headを用いて回転行列を求めます．
 
